@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            string merged = MergeAlternatelySolution.MergeAlternately("abc", "pqr");
+            string merged = GcdOfStringsSolution.GcdOfStrings("ABAB", "ABABAB");
             Console.WriteLine(merged);
+
+            string xx = new string('s', 3);
+            Console.WriteLine(xx);
         }
     }
 }
